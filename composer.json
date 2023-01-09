@@ -1,0 +1,16 @@
+{
+  "name": "weebel/contracts",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Weebel\\Contracts\\": "src/"
+    }
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "require": {
+    "psr/container": "^2.0"
+  }
+}
