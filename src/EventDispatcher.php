@@ -2,9 +2,9 @@
 
 namespace Weebel\Contracts;
 
-use Psr\EventDispatcher\EventDispatcher as PsrEventDispatcherInterface;
+use Psr\EventDispatcher\EventDispatcherInterface;
 
-interface EventDispatcher extends PsrEventDispatcherInterface
+interface EventDispatcher extends EventDispatcherInterface
 {
     public function addListener(string $event, string $listener): void;
 
