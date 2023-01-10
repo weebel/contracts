@@ -1,6 +1,6 @@
 <?php
 
-namespace Waxwink\Contracts;
+namespace Weebel\Contracts;
 
 interface QueueManager
 {
